@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ScrollView
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:paddingTop="16dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:orientation="vertical">
+
+            <Button
+                    android:id="@+id/btn_test"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:text="Button"
+                    android:layout_marginBottom="16dp"
+            />
+
+            <Switch
+                    android:id="@+id/switch_test"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+            />
+
+            <EditText
+                    android:id="@+id/et_test"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:layout_marginBottom="16dp"
+            />
+
+            <CheckBox
+                    android:id="@+id/checkbox_test"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:text="Plz Check"
+            />
+
+            <RadioGroup
+                    android:id="@+id/radiogroup_test"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+            >
+                <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Radio 1"
+                />
+                <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Radio 2"
+                />
+                <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Radio 3"
+                />
+            </RadioGroup>
+
+            <ToggleButton
+                    android:id="@+id/togglebtn_test"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+            />
+
+            <SeekBar
+                    android:id="@+id/seekbar_test"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+            />
+
+            <RatingBar
+                    android:id="@+id/ratingbar_test"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numStars="5"
+                    android:stepSize="0.5"
+                    android:layout_marginBottom="16dp"
+            />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+            android:id="@+id/btn_complete"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_margin="16dp"
+            android:layout_alignParentBottom="true"
+            android:text="Complete"
+            android:background="@android:color/darker_gray"
+    />
+
+</RelativeLayout>
